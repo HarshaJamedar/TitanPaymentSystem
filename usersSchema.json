@@ -1,0 +1,30 @@
+[
+  '{{repeat(10)}}',
+  {
+    "name": "{{firstName()}}",
+    "fullName": "{{firstName()}} {{surname()}}",
+    "phoneNumber": "{{phone()}}",
+    "password": 'poipoi',
+    "country": '{{random("India", "USA", "UK")}}',
+    "address": "{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}",
+    "purchaseList": [
+      '{{repeat(5,20)}}',
+      {
+        "purchaseCard": '{{random("VISA", "AMEX", "DISCOVER")}}',
+        "date": '{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}}',
+        "amount": '{{integer(100, 2000)}}',
+        "billingCycle": '{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}},{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}}',
+        "isPaid": '{{bool()}}'
+      }
+    ],
+    "paymentList": [
+      '{{repeat(5,20)}}',
+      {
+        "amount": '{{integer(100, 2000)}}',
+        "billingCycle": '{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}},{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}}',
+        "paymentCard":'{{random("VISA", "AMEX", "DISCOVER")}}',
+        "date": '{{date(new Date(2021, 0, 1), new Date(), "MM/dd/YYYY")}}',
+      }
+    ]
+  }
+]
