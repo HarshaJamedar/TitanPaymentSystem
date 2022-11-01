@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be901edb-6209-4b14-aa7f-58b9abe53182" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/PrintItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuf/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersSchema.json" afterDir="false" />
+    <list default="true" id="be901edb-6209-4b14-aa7f-58b9abe53182" name="Changes" comment="initial ready">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +92,16 @@
       <workItem from="1666838942995" duration="328000" />
       <workItem from="1666839278912" duration="8714000" />
       <workItem from="1667247704653" duration="10302000" />
-      <workItem from="1667259684880" duration="11003000" />
+      <workItem from="1667259684880" duration="11311000" />
     </task>
+    <task id="LOCAL-00001" summary="initial ready">
+      <created>1667270992119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667270992119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +117,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
