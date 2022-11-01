@@ -6,7 +6,7 @@ Payment Platform: The Payment platform helps in creating a hassle-free environme
 
 ### Tech Used:
 
-1.	Object Oriented programming JAVA (Apache maven)
+1.	Object-Oriented programming JAVA (Apache maven)
 2.	Lombok
 3. Google GSON library for JSON parsing and serialization
 
@@ -19,3 +19,16 @@ Payment Platform: The Payment platform helps in creating a hassle-free environme
 6. The data is read and written from the file "data.json" in the project directory. Please make sure you have the file in the project directory.
 7. The data is read and written from the file "data.json" in the project directory, only after the user has logged out or exited the application.
 
+### How to run the project:
+1. Clone the project from the repository.
+2. Open the project in an IDE (preferably IntelliJ IDEA).
+3. Run the project from the IDE.
+4. The project will run and the user will be prompted to enter the username and password.
+5. The user can enter the username and password from the file "Users.json" in the project directory.
+6. The user can also create a new user by entering the username and password.
+7. The user can then select the options from the menu provided.
+8. The user can logout or exit the application at any point of time.
+9. The user can then login again with the same or different username and password.
+10. The user can then select the options after login from the menu provided.
+11. The user can query the using the options provided in the menu.
+12. The user can download his purchase and payment history in the form of a CSV file.
