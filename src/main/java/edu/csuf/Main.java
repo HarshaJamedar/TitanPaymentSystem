@@ -189,7 +189,7 @@ public class Main {
                                         printItems.addAll(user1.getPurchaseList());
                                         printItems.addAll(user1.getPaymentList());
                                         Collections.sort(printItems, Comparator.comparing(PrintItem::getDate));
-                                        FileUtil.exportToCSV(printItems);
+                                        FileUtil.exportToCSV(printItems, user1.getName());
                                     }
                                     case 11 -> {
                                         break WHILE;

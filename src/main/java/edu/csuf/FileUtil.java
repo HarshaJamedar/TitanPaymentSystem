@@ -52,13 +52,13 @@ public class FileUtil {
         }
     }
 
-    static void exportToCSV(List<PrintItem> printItems) {
+    static void exportToCSV(List<PrintItem> printItems, String userName) {
         String csv = "Date,Transaction Type,Used Card,Amount,Billing Cycle \n";
         for (PrintItem printItem : printItems) {
             csv += printItem.getDate() + "," + printItem.getTransactionType() + "," + printItem.getPurchaseCard() + "," + printItem.getAmount() + "," + "\"" + printItem.getBillingCycle() + "\"" + "\n";
         }
         try {
-            FileWriter fileWriter = new FileWriter("export.csv");
+            FileWriter fileWriter = new FileWriter(userName+".csv");
             fileWriter.write(csv);
             fileWriter.close();
         } catch (IOException e) {
